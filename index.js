@@ -21,5 +21,9 @@ function nodeAt(index, linkedList, collection) {
 }
 
 function addressAt(index, linkedList, collection) {
-  
+  if(index === 0){
+    return index;
+  } else {
+    
+  }
 }
