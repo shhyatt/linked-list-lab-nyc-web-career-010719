@@ -11,7 +11,7 @@ function next(node, collection) {
   return collection[nextAddress]
 }
 
-function nodeAt(index,linkedList, collection) {
+function nodeAt(index, linkedList, collection) {
   let currentNode = headNode(linkedList, collection)
   for(i = 0; i < index; i++){
     currentNode = next(currentNode, collection)
