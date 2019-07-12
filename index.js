@@ -3,5 +3,5 @@ function getName(node) {
 }
 
 function headNode(linkedList, collection) {
-  return linkedList[0]
+  return collection[linkedList]
 }
