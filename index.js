@@ -57,6 +57,7 @@ function deleteNodeAt(index, linkedList, collection){
   let previousNode;
   let currentNode = headNode(linkedList, collection);
   for(let i = 0; i < index; i++){
-    
+    previousNode = currentNode;
+    currentNode = currentNode.next
   }
 }
