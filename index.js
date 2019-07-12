@@ -9,5 +9,8 @@ function headNode(linkedList, collection) {
 function next(node, collection) {
   let nextAddress = node.next
   return collection[nextAddress]
+}
+
+function nodeAt(node, collection) {
   
 }
