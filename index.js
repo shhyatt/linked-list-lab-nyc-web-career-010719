@@ -35,5 +35,6 @@ function indexAt(index, head) {
   for(i = 0; i < index; i++){
     node = next(node)
   }
+  return node
   
 }
