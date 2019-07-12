@@ -11,7 +11,8 @@ function next(node, collection) {
   return collection[nextAddress]
 }
 
-function nodeAt(index, collection) {
-  return collection[index]
+function nodeAt(index,linkedList, collection) {
+  let currentNode = headNode[]
+  
   
 }
