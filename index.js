@@ -11,6 +11,7 @@ function next(node, collection) {
   return collection[nextAddress]
 }
 
-function nodeAt(node, collection) {
+function nodeAt(index) {
+  return 
   
 }
