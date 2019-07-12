@@ -35,7 +35,7 @@ function indexAt(node, collection, linkedLisr) {
   let currentIndex = 0;
   while(currentNode !== node){
     currentIndex++
-    currentNode = next()
+    currentNode = next(currentNode, collection)
     
   }
 }
