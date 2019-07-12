@@ -18,5 +18,6 @@ function nodeAt(index, linkedList, collection) {
   }
   return currentNode
   
-  
 }
+
+function addressAt()
