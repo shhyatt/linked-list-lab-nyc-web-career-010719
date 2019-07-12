@@ -60,4 +60,5 @@ function deleteNodeAt(index, linkedList, collection){
     previousNode = currentNode;
     currentNode = next(currentNode, collection)
   }
+  previousNode.next = currentNode.next
 }
