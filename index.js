@@ -32,8 +32,6 @@ function addressAt(index, linkedList, collection) {
 
 function indexAt(index, head) {
   let currentNode = headNode(linkedList, collection)
-  for(let i = 0; i < index; i++){
-    node = next(node)
-  }
-  return node
+  let currentIndex = 0;
+  while
 }
