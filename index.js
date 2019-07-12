@@ -12,7 +12,8 @@ function next(node, collection) {
 }
 
 function nodeAt(index,linkedList, collection) {
-  let currentNode = headNode[]
+  let currentNode = headNode(linkedList, collection)
+  
   
   
 }
