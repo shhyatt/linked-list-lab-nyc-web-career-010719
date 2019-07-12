@@ -33,7 +33,7 @@ function addressAt(index, linkedList, collection) {
 function indexAt(index, head) {
   let node = head
   for(i = 0; i < index; i++){
-    
+    node = next(node)
   }
   
 }
