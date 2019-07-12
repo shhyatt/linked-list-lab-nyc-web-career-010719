@@ -24,6 +24,7 @@ function addressAt(index, linkedList, collection) {
   if(index === 0){
     return index;
   } else {
-    
+    let node = nodeAt(index - 1, linkedList, collection)
   }
+  return node.next
 }
