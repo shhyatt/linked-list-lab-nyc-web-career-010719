@@ -7,5 +7,7 @@ function headNode(linkedList, collection) {
 }
 
 function next(node) {
+  let nextAddress = node[1]
+  return node[nextAddress]
   
 }
