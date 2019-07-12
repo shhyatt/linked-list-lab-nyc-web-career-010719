@@ -29,3 +29,7 @@ function addressAt(index, linkedList, collection) {
   }
   
 }
+
+function indexAt(index, linkedList, collection) {
+  
+}
