@@ -54,5 +54,6 @@ function insertNodeAt(index, newNodeAddress, linkedList, collection){
 }
 
 function deleteNodeAt(index, linkedList, collection){
-  
+  let previousNode;
+  let currentNode = head
 }
